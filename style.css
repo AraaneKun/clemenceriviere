@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/* FontStyle */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* All */
 header {
     position: sticky;
     top: 0;
@@ -24,8 +30,7 @@ header {
     max-width: 1200px;
     width: 100%;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;   
 }
 
 .responsive{
@@ -76,15 +81,22 @@ header {
 
 /* Texte Style */
 h1 {
-  font-size: 180px;
+  font-size: 150px;
+  margin-bottom: 25px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: normal;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 90px;
+  margin-bottom: 25px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: normal;
 }
 
 h3 {
   font-size: 24px;
+  font-family: "Manrope", sans-serif;
 }
 
 h4 {
@@ -94,19 +106,29 @@ h4 {
 p {
   line-height: 1.5;
   margin-bottom: 14px;
+  font-family: "Manrope", sans-serif;
 }
 
 a {
   color: #2E2A26;
   text-decoration: none;
   display: inline-block;
+  font-family: "Manrope", sans-serif;
 }
 
 .txt-center {
   text-align: center;
 }
 
+.txt-end{
+  text-align: end;
+}
+
 /* Margin et Padding */
+.mt-n{
+  margin-top: -300px;
+}
+
 .mt-64 {
   margin-top: 64px;
 }
@@ -122,17 +144,29 @@ a {
   margin-top: 100px;
 }
 
+.mt-200{
+  margin-top: 190px;
+}
+
 .m-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.ml{
+  margin-left: var(--gap);
+}
+
+.mr{
+  margin-right: 24px;
 }
 
 .p-16 {
   padding: 16px;
 }
 
-.pb-32 {
-  padding: 32px 0;
+.p-32 {
+  padding: 32px;
 }
 
 /* Large */
@@ -151,6 +185,10 @@ a {
 
 .w70{
   width: 70%;
+}
+
+.w55{
+  width: 45%;
 }
 
 .w50{
@@ -173,6 +211,12 @@ a {
   border-bottom: solid 2px #2E2A26;
 }
 
+.bg1-1-1{
+  background-color: #D8935C;
+  padding: 42px;
+  border-top: solid 2px #2E2A26;
+}
+
 .bg2 {
   background-image: url(images/couverture-dada-design-9KGB4HspwsM-unsplash\ 1.png);
   background-repeat: no-repeat;
@@ -181,6 +225,7 @@ a {
   background-position: center;
   background-size: 100% 100%;
   border-bottom: solid 2px #2E2A26;
+  padding: 130px 304px;
 }
 
 .bg3{
@@ -194,6 +239,14 @@ a {
   border-radius: 64px;
   padding: var(--gap);
   border: solid 2px #2E2A26;
+}
+
+.bg3-1-1{
+  background-color: #D8935C90;
+  border-radius: 24px;
+  padding: var(--gap);
+  border: solid 2px #2E2A26;
+  backdrop-filter: blur(10px);
 }
 
 .bg4{
@@ -212,4 +265,9 @@ a {
   padding: 20px 40px;
   border: solid 2px #2E2A26;
   border-radius: 10px;
+}
+
+/* Translate */
+.translate{
+  translate: 0 -60%;
 }
