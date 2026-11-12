@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}   
+
 /* Variable */
 :root{
-    --gap: 32px
+    --gap: 16px
 }
 
 /* Container & Responsive */
@@ -63,6 +69,7 @@
     align-items: flex-end;
 }
 
+/* Gap */
 .gap {
     gap: var(--gap);
 }
@@ -142,16 +149,67 @@ a {
   width: 100%;
 }
 
+.w70{
+  width: 70%;
+}
+
+.w50{
+  width: 50%;
+}
+
+.w25{
+  width: 25%;
+}
+
 /* Background */
 .bg1 {
   background-color: #D8935C;
+  border-bottom: solid 2px #2E2A26;
+}
+
+.bg1-1{
+  background-color: #D8935C;
+  padding: 42px;
+  border-bottom: solid 2px #2E2A26;
 }
 
 .bg2 {
   background-image: url(images/couverture-dada-design-9KGB4HspwsM-unsplash\ 1.png);
   background-repeat: no-repeat;
-  width: 100vh;
+  width: 100%;
   height: 100vh;
   background-position: center;
   background-size: 100% 100%;
+  border-bottom: solid 2px #2E2A26;
+}
+
+.bg3{
+  background-color: #D8935C70;
+  padding: 191px 304px;
+  border-bottom: solid 2px #2E2A26;
+}
+
+.bg3-1{
+  background-color: #D8935C;
+  border-radius: 64px;
+  padding: var(--gap);
+  border: solid 2px #2E2A26;
+}
+
+.bg4{
+  background-image: url(images/3d-modern-lamp-design\ 1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vh;
+  background-position: center;
+  background-size: 100%;
+  border-bottom: solid 2px #2E2A26;
+}
+
+/* Bouttons */
+.btn{
+  background-color: #D8935C;
+  padding: 20px 40px;
+  border: solid 2px #2E2A26;
+  border-radius: 10px;
 }
