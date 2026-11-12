@@ -11,11 +11,13 @@
 <body>
     <header class="bg1">
         <div class="flex btw center container1200">
-            <img src="images/logo 1.png" alt="LOGO">
-            <nav class="flex gap">
-                <a href="">Liste</a>
-                <a href="">Projets</a>
-                <a href="">Témoignages</a>
+            <a href="index.html"><img src="images/logo 1.png" alt="LOGO"></a>
+            <nav>
+                <a class="semibold" href="#Liste">Liste</a>
+                <a class="semibold" href="#Projets">Projets</a>
+                <a class="semibold" href="#Témoignages">Témoignages</a>
+                <a class="semibold" href="#Services">Services</a>
+                <a class="semibold" href="#Réservez">Réservez</a>
             </nav>
         </div>
     </header>
@@ -25,12 +27,12 @@
         <div class="container1200 txt-end">
             <h1>CLÉMENCE RIVIÈRE<br>STUDIO</h1>
             <h2>Architecte d'interieur</h2>
-            <a class="btn mt-32" href="">Réservez pour vos Projets</a>
+            <a class="btn mt-16" href="#Réservez">Réservez pour vos Projets</a>
         </div>
     </section>
 
     <!-- Bento -->
-    <section class="bg3">
+    <section id="Liste" class="bg3">
         <div class="flex btw container1200 bg3-1 gap">
 
             <div class="large-6">
@@ -67,8 +69,9 @@
                 <img class="w55" src="images/amenagement-pexels-shkrabaanthony-5292237 1.png" alt="">
                 <div class="w50 ml">
                     <h3>Rénovation d'appartements</h3>
-                    <p>Repenser la circulation, les volumes et la lumière pour créer des intérieurs élégants, fonctionnels et
-                    chaleureux.</p>
+                    <p>Repenser la circulation, les volumes et la lumière pour créer des intérieurs élégants,
+                        fonctionnels et
+                        chaleureux.</p>
                 </div>
             </div>
             <div class="w50"></div>
@@ -76,8 +79,9 @@
             <div class="bg3-1-1 w50 flex center txt-end">
                 <div class="w50 mr">
                     <h3>Décoration intérieure</h3>
-                    <p>Sélection de matériaux, textures et couleurs pour harmoniser votre intérieur et lui donner une identité
-                    unique.</p>
+                    <p>Sélection de matériaux, textures et couleurs pour harmoniser votre intérieur et lui donner une
+                        identité
+                        unique.</p>
                 </div>
                 <img class="w55" src="images/promesses-pexels-shkrabaanthony-6322392 1.png" alt="">
             </div>
@@ -85,7 +89,7 @@
     </section>
 
     <!-- Services aux clients -->
-    <section class="bg1-1">
+    <section id="Services" class="bg1-1">
         <div class="container1200 flex center btw txt-center">
             <div class="">
                 <img class="w50" src="images/image 1.png" alt="">
@@ -110,7 +114,7 @@
     </section>
 
     <!-- Cartes + Boutons -->
-    <section class="bg3">
+    <section id="Projets" class="bg3">
         <div class="container1200 flex btw center">
             <div class="large-4 txt-center">
                 <img class="w100" src="images/jean-luc-benazet-oOvzE2L-n1A-unsplash 1.png" alt="">
@@ -126,68 +130,154 @@
                 <img class="w100" src="images/modern-spacious-room-with-large-panoramic-window 1.png" alt="">
                 <a class="btn translate" href="">Plus de Créations ...</a>
             </div>
-        </div>    
+        </div>
     </section>
 
     <!-- Avis Clients -->
-    <section class="container1200">
-        <h3>Quelques avis ...</h3>
-        <div>
-            <!-- Faire les cartes avis + Bcg -->
+    <section id="Témoignages" class="bgw">
+        <div class="container1200">
+            <h3>Quelques avis ...</h3>
+            <div class="bg5 flex btw center">
+                <div class="large-4 bg5-1">
+                    <div class="flex center">
+                        <img class="border-r w25 mr1 mb24" src="/images/reiner_braun_9637.webp" alt="">
+                        <div>
+                            <h4>Reiner Braun</h4>
+                            <div>
+                                <img class="w25px" src="images/image 5.png" alt="">
+                                <img class="w25px" src="images/image 5.png" alt="">
+                                <img class="w25px" src="images/image 5.png" alt="">
+                                <img class="w25px" src="images/image 5.png" alt="">
+                                <img class="w25px" src="images/image 5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <p>« J'ai confié la rénovation complète de mon appartement à Mme Rivière et le résultat dépasse
+                        toutes mes attentes. Elle a su transformer un espace sombre et étroit en un lieu lumineux,
+                        fonctionnel et chaleureux. Son écoute est remarquable : elle a compris exactement ce que je
+                        voulais avant même que je l'exprime. Je recommande les yeux fermés ! »</p>
+                </div>
+
+                <div class="large-4 bg5-1">
+                    <div class="flex center">
+                        <img class="border-r w25 mr1 mb24" src="/images/Annie2.webp" alt="">
+                        <div>
+                            <h4>Annie Leonhart</h4>
+                            <div>
+                                <img class="w25px" src="images/image 5.png" alt="">
+                                <img class="w25px" src="images/image 5.png" alt="">
+                                <img class="w25px" src="images/image 5.png" alt="">
+                                <img class="w25px" src="images/image 5.png" alt="">
+                                <img class="w25px" src="images/image 5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <p>« Un vrai coup de cœur. Notre maison de 1930 était difficile à moderniser sans perdre son charme,
+                        et elle a réussi l'exploit. Le choix des matériaux, la lumière, les volumes… tout est pensé dans
+                        les moindres détails. Le chantier a été géré avec une rigueur et une transparence exemplaires.
+                        On se sent chez soi dès la première visite. »</p>
+                </div>
+
+                <div class="large-4 bg5-1">
+                    <div class="flex center">
+                        <img class="border-r w25 mr1 mb24" src="/images/bertolt_hoover_10161.webp" alt="">
+                        <div>
+                            <h4>Bertolt Hoover</h4>
+                            <div>
+                                <img class="w25px" src="images/image 5.png" alt="">
+                                <img class="w25px" src="images/image 5.png" alt="">
+                                <img class="w25px" src="images/image 5.png" alt="">
+                                <img class="w25px" src="images/image 5.png" alt="">
+                                <img class="w25px" src="images/image 5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <p>« De la première esquisse à la livraison des clés, un accompagnement au top. Elle m'a fait gagner
+                        un temps précieux grâce à ses plans 3D et ses conseils avisés sur les fournisseurs. Le budget a
+                        été respecté à l'euro près, ce qui est rare dans ce métier. Résultat : un intérieur qui me
+                        ressemble enfin.On se sent chez soi dès la première visite. Merci infiniment ! »</p>
+                </div>
+            </div>
+
         </div>
-        <div>
-            <h3>Notes Google</h3>
-            <img src="images/image 5.png" alt="">
-            <img src="images/image 5.png" alt="">
-            <img src="images/image 5.png" alt="">
-            <img src="images/image 5.png" alt="">
-            <img src="images/image 5.png" alt="">
+        <div class="flex right">
+            <h3 class="mr">Notes Google :</h3>
+            <img class="w25px ml4" src="images/image 5.png" alt="">
+            <img class="w25px ml4" src="images/image 5.png" alt="">
+            <img class="w25px ml4" src="images/image 5.png" alt="">
+            <img class="w25px ml4" src="images/image 5.png" alt="">
+            <img class="w25px ml4" src="images/image 5.png" alt="">
+        </div>
         </div>
     </section>
 
     <!-- Demande de RDV -->
-    <section class="container1200">
-        <div>
-            <div>
-                <h3>Réserver un appel téléphonique</h3>
-                <p>Dès réception de votre demande, nous vous contacterons pour discuter de votre projet. Nous nous
-                    efforcerons de vous proposer un RDV téléphonique adapté aux disponibilités que vous aurez indiquées.
-                    Lors de cet échange, nous pourrons prévoir un RDV sur place.</p>
+    <section id="Réservez" class="bgw">
+        <div class="flex btw container1200">
+            <!-- partie gauche -->
+            <div class="w45">
+                <div>
+                    <h3 class="mb24">Réserver un appel téléphonique</h3>
+                    <p>Dès réception de votre demande, nous vous contacterons pour discuter de votre projet. Nous nous
+                        efforcerons de vous proposer un RDV téléphonique adapté aux disponibilités que vous aurez
+                        indiquées.
+                        Lors de cet échange, nous pourrons prévoir un RDV sur place.</p>
+                </div>
+
+                <div class="mt-32">
+                    <input class="btn1 btn1-1" type="Nom Prénom">
+                    <div class="flex btw">
+                        <input class="btn1 btn1-1-1 mt-32" type="Email">
+                        <input class="btn1 btn1-1-1 mt-32" type="Téléphone">
+                    </div>
+                    <div class="flex btw">
+                        <input class="btn1 btn1-1-1 mt-32" type="Adresse">
+                        <input class="btn1 btn1-1-1 mt-32" type="Code Postal">
+                    </div>
+                    <textarea class="btn1 btn1-2 mt-32" name="Déscription du projet" id=""></textarea>
+                    <div class="flex right">
+                        <input class="btn mt-64" type="submit" value="Envoyer">
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <!-- Créer 6 input et btn input submit -->
-            </div>
-            <img src="images/side-view-woman-reading-tarot 1.png" alt="">
+
+            <!-- partie droite -->
+            <img class="w45" src="images/side-view-woman-reading-tarot 1.png" alt="">
+
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg1-1-1">
-        <div class="container1200">
-            <div>
-                <img src="images/logo 1.png" alt="">
-            </div>
+        <div class="container1200 flex btw">
+            <div class="">
                 <div>
-                    <img src="images/image 10.png" alt="">
-                    <img src="images/image 11.png" alt="">
-                    <img src="images/image 12.png" alt="">
-                    <img src="images/image 13.png" alt="">
+                    <img src="images/logo 1.png" alt="">
                 </div>
-            
-            <div>
-                <p>Agence d’architecture basée à Paris, Lyon et Marseille,
-                Studio Castille réalise tous les projets d’aménagement intérieur sur-mesure de votre appartement, maison
-                ou locaux professionnels.</p>
+                <div class="flex">
+                    <a href="https://www.instagram.com/"><img class="w25px ml" src="images/image 10.png" alt=""></a>
+                    <a href="https://x.com/"><img class="w25px ml" src="images/image 11.png" alt=""></a>
+                    <a href="https://www.facebook.com/?locale=fr_FR"><img class="w25px ml" src="images/image 12.png"
+                            alt=""></a>
+                    <a href="https://www.tiktok.com/fr/"><img class="w25px ml" src="images/image 13.png" alt=""></a>
+                </div>
             </div>
-            <div>
+
+            <div class="flex large-4">
+                <p>Agence d’architecture basée à Paris, Lyon et Marseille,
+                    Studio Castille réalise tous les projets d’aménagement intérieur sur-mesure de votre appartement,
+                    maison
+                    ou locaux professionnels.</p>
+            </div>
+            <div class="flex large-4">
                 <p>Clémence Rivière
-                Agence Paris : 4 rue de Compiègne - 75010 Paris
-                Agence Lyon : 9 rue du Doyenné - 69005 Lyon Agence Marseille : 5 rue Saint-Jacques, 13006 Marseille
-                ohayo@clemence-riviere.fr 09.83.91.51.30</p>
+                    Agence Paris : 4 rue de Compiègne - 75010 Paris
+                    Agence Lyon : 9 rue du Doyenné - 69005 Lyon Agence Marseille : 5 rue Saint-Jacques, 13006 Marseille
+                    ohayo@clemence-riviere.fr 09.83.91.51.30</p>
             </div>
         </div>
-        <div class="flex center btw container1200">
+        <div class="flex center btw mt-64 txt-end container1200">
             <p>Architecte d'interieur à St Etienne</p>
             <a href="">Mentions Légales</a>
             <a href="">Conditions d'utilisations</a>
